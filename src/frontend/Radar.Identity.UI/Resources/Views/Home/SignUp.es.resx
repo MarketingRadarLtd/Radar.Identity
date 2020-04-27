@@ -117,31 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Continue" xml:space="preserve">
-    <value>Continue</value>
+  <data name="Already have an account" xml:space="preserve">
+    <value>Ya tiene una cuenta</value>
   </data>
-  <data name="Don't have an account?" xml:space="preserve">
-    <value>Don't have an account?</value>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuamos</value>
   </data>
   <data name="Email address" xml:space="preserve">
-    <value>Email address</value>
+    <value>Dirección de correo electrónico</value>
   </data>
-  <data name="Forgotten password" xml:space="preserve">
-    <value>Forgotten your password?</value>
-  </data>
-  <data name="Log in to continue" xml:space="preserve">
-    <value>Log in to continue</value>
-  </data>
-  <data name="Never share email" xml:space="preserve">
-    <value>We'll never share your email with anyone else.</value>
+  <data name="Log in" xml:space="preserve">
+    <value>Inicia sesión</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Password</value>
+    <value>Contraseña</value>
   </data>
   <data name="Sign up" xml:space="preserve">
-    <value>Sign up</value>
+    <value>Únete</value>
+  </data>
+  <data name="Sign up to continue" xml:space="preserve">
+    <value>Regístrese para continuar</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>nombre de usuario</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>Welcome</value>
+    <value>Bienvenido</value>
   </data>
 </root>

@@ -1,0 +1,33 @@
+﻿@import "_variables";
+
+$homeLoginPrefix: "home-login__";
+
+.#{$homeLoginPrefix}logo
+{
+    margin-bottom: 1.1rem;
+}
+
+.#{$homeLoginPrefix}email-share {
+    text-align: left;
+}
+
+.#{$homeLoginPrefix}forgotten-password {
+    text-align: left;
+}
+
+.#{$homeLoginPrefix}continue-button {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.#{$homeLoginPrefix}card-body {
+    padding-bottom: 5rem;
+}
+
+.#{$homeLoginPrefix}input-group-text {
+    background-color: $inputGroupTextBackgroundColor;
+
+    > i {
+        width: 1.1rem;
+    }
+}

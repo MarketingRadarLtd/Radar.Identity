@@ -1,0 +1,51 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+@{
+    Layout = "_LayoutNoHeader";
+
+    ViewData["Title"] = @Localizer["Log in"];
+}
+
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card text-center">
+            <div class="card-body home-login__card-body">
+                <img src="~/images/radar-logo-rings.png" alt="company logo" class="home-login__logo">
+                <h5 class="card-title">@Localizer["Welcome"]</h5>
+                <p class="card-text">@Localizer["Log in to continue"]</p>
+
+                <form>
+
+                    <label class="sr-only" for="loginEmail">@Localizer["Email address"]</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text home-login__input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="@Localizer["Email address"]" autocomplete="off" autofocus>
+                    </div>
+
+                    <label class="sr-only" for="loginPassword">@Localizer["Password"]</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text home-login__input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="password" class="form-control" id="loginPassword" aria-describedby="passwordHelp" placeholder="@Localizer["Password"]" autocomplete="off">
+
+                    </div>
+                    <small id="passwordHelp" class="form-text text-muted home-login__forgotten-password">
+                        <a href="#">@Localizer["Forgotten password"]</a>
+                    </small>
+
+                    <button type="submit" class="btn btn-primary home-login__continue-button">@Localizer["Continue"]</button>
+
+                </form>
+
+            </div>
+            <div class="card-footer text-muted">
+                @Localizer["Don't have an account?"] <a asp-controller="Home" asp-action="SignUp">@Localizer["Sign up"]</a>
+            </div>
+        </div>
+    </div>
+</div>

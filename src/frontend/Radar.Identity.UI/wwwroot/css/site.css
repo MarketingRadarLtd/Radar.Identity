@@ -57,21 +57,41 @@ body {
   line-height: 60px;
   /* Vertically center the text there */ }
 
-.home-index__logo {
+.home-login__logo {
   margin-bottom: 1.1rem; }
 
-.home-index__email-share {
+.home-login__email-share {
   text-align: left; }
 
-.home-index__forgotten-password {
-  text-align: left;
-  margin-bottom: 1.5rem; }
+.home-login__forgotten-password {
+  text-align: left; }
 
-.home-index__continue-button {
-  width: 100%; }
+.home-login__continue-button {
+  width: 100%;
+  margin-top: 1.5rem; }
 
-.home-index__card-body {
+.home-login__card-body {
   padding-bottom: 5rem; }
 
-.home-index__input-group-text {
+.home-login__input-group-text {
   background-color: #FFFFFF; }
+  .home-login__input-group-text > i {
+    width: 1.1rem; }
+
+.home-signup__logo {
+  margin-bottom: 1.1rem; }
+
+.home-signup__email-share {
+  text-align: left; }
+
+.home-signup__continue-button {
+  width: 100%;
+  margin-top: 1.5rem; }
+
+.home-signup__card-body {
+  padding-bottom: 5rem; }
+
+.home-signup__input-group-text {
+  background-color: #FFFFFF; }
+  .home-signup__input-group-text > i {
+    width: 1.1rem; }
