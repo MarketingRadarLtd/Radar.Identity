@@ -1,0 +1,6 @@
+﻿@import "_variables";
+
+.form-control:focus {
+    border-color: $systemTint;
+    box-shadow: 0 0 0 0.1rem $systemTint;
+}
